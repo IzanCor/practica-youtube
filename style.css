@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-principal {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    grid-template-rows: 50px 1fr;
+    border: 5px solid red;
+    background-color: rgb(17, 17, 17);
+}
+
+.navbar {
+    grid-area: 1 / 1 / 2 / -1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+    color: white;
+}
+
+
+.navbar-parte1 {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.icono-menu {
+    margin-right: 25px;
+    width: 17px;
+    height: 17px;
+}
+
+.contenedor-logo {
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+}
+
+
+.icono-youtube {
+    margin-right: 2px;
+    width: 30px;
+    height: 30px;
+}
+
+.icono-youtube-texto{
+    display: flex;
+    height: 100%;
+
+    align-items: center;
+    padding: 7px 0px;
+    
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    letter-spacing: -1px;
+}
+
+.mx {
+    font-size: 10px;
+    color: rgb(151, 151, 151);
+    align-self: flex-start;
+    margin-left: 2px;
+}
+
+.navbar-parte2 {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.form-busqueda {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+
+.in-busqueda {
+    width: 500px;
+    
+    background-color: rgb(34, 34, 34);
+    border: 1px solid rgb(72, 60, 71);
+    color: rgb(233, 233, 233);
+    
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 16px;
+    font-weight: normal;
+    
+    height: 40px;
+    
+    padding: 5px 17px;
+
+    outline: none;
+}
+
+.btn-buscar {
+    border: 1px solid rgb(72, 60, 71);
+    background-color: rgb(60, 49, 59);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 40px;
+    padding: 5px 17px;
+}
+
+.icono-buscar {
+    width: 25px;
+}
+
+.btn-microfono {
+    border: 1px solid rgb(72, 60, 71);
+    background-color: rgb(60, 49, 59);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.btn-microfono:hover {
+    background-color: rgb(80, 69, 79);
+}
+
+
+.icono-microfono {
+    width: 18px;
+}
+
+
+
+
+
+
+.navbar-parte3 {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.btn-camara {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-camara:hover {
+    border: 1px solid rgb(72, 60, 71);
+    background-color: rgb(80, 69, 79);
+}
+
+
+.icono-camara {
+    width: 23px;
+}
+
+
+.btn-notificacion {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-notificacion:hover {
+    border: 1px solid rgb(72, 60, 71);
+    background-color: rgb(80, 69, 79);
+}
+
+
+.icono-notificacion {
+    width: 20px;
+}
+
+.btn-avatar {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(105, 99, 105);
+}
+
+
+
+.btn-avatar:hover {
+    border: 1px solid rgb(72, 60, 71);
+    background-color: rgb(80, 69, 79);
+}
+
+
+.sidebar {
+    padding: 10px;
+    height: 670px;
+    overflow-y: auto;
+}
+
+.lista {
+    list-style: none;
+    color: white;
+}
+
+.elemento-lista {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.elemento-lista:hover {
+    background-color: rgba(84, 84, 84, 0.875);
+}
+
+
+.icono-youtube-side {
+    width: 20px;
+    margin-right: 20px;
+}
+
+
+.separador {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #848383;
+    height: 1px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+.contendor {
+
+}
+
+
+
+
+
+
+
