@@ -6,21 +6,35 @@
     box-sizing: border-box;
 }
 
+
+.fondo {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(17, 17, 17);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 .contenedor-principal {
     display: grid;
     grid-template-columns: 230px 1fr;
     grid-template-rows: 50px 1fr;
-    border: 5px solid red;
     background-color: rgb(17, 17, 17);
 }
 
 .navbar {
-    grid-area: 1 / 1 / 2 / -1;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 25px;
     color: white;
+    background-color: rgb(17, 17, 17);
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 50px;
 }
 
 
@@ -211,6 +225,10 @@
     padding: 10px;
     height: 670px;
     overflow-y: auto;
+    position: fixed;
+    top: 50px;
+    width: 230px;
+    
 }
 
 .lista {
@@ -246,18 +264,63 @@
     border: none;
 }
 
-
-
-
-
-
-
-
-
-.contendor {
-
+.contenedor-videos {
+    display: grid;
+    grid-template-columns: repeat( auto-fit , minmax(280px, 1fr));
+    grid-template-rows: 50px;
+    grid-auto-rows: 300px;
+    gap: 10px;
+    grid-column-start: 2;
+    grid-row-start: 2;
 }
 
+.opciones-videos {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y: auto;
+}
+
+.opcion {
+    color: rgb(228, 226, 226);
+    background-color: rgba(43, 42, 42, 0.836);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.opcion:hover {
+    background-color: rgba(179, 175, 175, 0.217);
+}
+
+.contenedor-video {
+    background-color: rgb(71, 71, 71);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 30px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.video {
+    background-color: rgb(92, 91, 91);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-video {
+    background-color: rgb(77, 77, 77);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
 
 
 
